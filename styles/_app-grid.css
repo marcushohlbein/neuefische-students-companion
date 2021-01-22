@@ -1,0 +1,26 @@
+.app-grid {
+  display: grid;
+  grid-template-rows: 58px auto 58px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.app-grid__header {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color: var(--color-light-grey);
+}
+
+.app-grid__content {
+  background-color: var(--color-light-grey);
+  overflow-y: scroll;
+  display: grid;
+  gap: 20px;
+  height: 100%;
+  padding: 50px 20px 20px;
+}
+
+.app-grid__navigation {
+  background-color: var(--color-white);
+}
