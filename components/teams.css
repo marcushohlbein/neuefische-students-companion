@@ -31,13 +31,13 @@ body {
   list-style-type: none;
   padding-left: 0;
   margin: 0 auto;
-  border: 1px solid var(--color-blue);
-  border-radius: 6px 6px 0px 0px;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
 }
 
 .teams-container__item {
   text-align: center;
-  border-bottom: 1px solid var(--color-blue);
+  border-bottom: 1px solid var(--color-light-blue);
   padding: 18px 79.5px;
   line-height: 1;
   color: var(--color-blue);
@@ -45,6 +45,5 @@ body {
 
 /* 
 To Do's: 
-Wie die unteren Ecken auch abrunden?
 Letzte Border dicker als die anderen?
 */
