@@ -1,0 +1,41 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: auto;
+}
+
+.navigation__item {
+  place-items: center;
+  display: grid;
+  padding: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.navigation__item:hover,
+.navigation__item:active {
+  color: var(--color-orange);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+
+.navigation__item {
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.navigation__item i {
+  font-size: 25px;
+}
+
+.navigation__item-label {
+  text-decoration: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
