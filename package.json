@@ -1,5 +1,5 @@
 {
-  "name": "quiz-app",
+  "name": "neuefische-students-companion",
   "version": "0.0.1",
   "scripts": {
     "prettier:write": "prettier --write .",
@@ -7,17 +7,17 @@
     "test": "htmlhint && prettier --check . && npm run stylelint"
   },
   "keywords": [],
-  "author": "Jeremias Erbs <jerry@badabam.de> (https://badabam.de)",
+  "author": "Marcus Hohlbein <marcus.hohlbein@gmail.com>",
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badabam/quiz-app.git"
+    "url": "git+https://github.com/marcushohlbein/neuefische-students-companion.git"
   },
   "bugs": {
-    "url": "https://github.com/badabam/quiz-app/issues"
+    "url": "https://github.com/marcushohlbein/neuefische-students-companion.git/issues"
   },
-  "homepage": "https://github.com/badabam/quiz-app#readme",
+  "homepage": "https://github.com/marcushohlbein/neuefische-students-companion.git#readme",
   "description": "",
   "devDependencies": {
     "htmlhint": "^0.14.2",
