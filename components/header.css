@@ -6,9 +6,23 @@
 .header {
   text-align: center;
   background-color: #f8f8f8;
+  xbackground-color: red;
   position: relative;
+  xbackground: url(../material/background_shape_1.svg);
   z-index: 2;
 }
+
+.header__wave {
+  background-image: url(../material/background_shape_1.svg);
+  position: absolute;
+  height: 59px;
+  width: 100%;
+  z-index: -1;
+  top: 7%;
+  left: 0%;
+}
+
+/*
 
 .header:after {
   content: url(../material/background_shape_1.svg);
@@ -18,11 +32,12 @@
   top: 35%;
 }
 
-/*
+
 .header__placeholder {
   color: black;
   background-size: cover;
   background-image: url(../material/background_shape_1.svg);
+  
 }
 
 
