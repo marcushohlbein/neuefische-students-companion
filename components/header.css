@@ -1,0 +1,30 @@
+.header {
+  text-align: center;
+  xbackground-image: url(../material/background_shape_1.svg);
+  background-color: hotpink;
+  position: relative;
+}
+
+.header:after {
+  content: url(../material/background_shape_1.svg);
+  position: absolute;
+  bottom: -20px;
+}
+
+.header__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-dark-blue);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-blue);
+}
