@@ -1,0 +1,39 @@
+/*
+.dashboard:before {
+  content: '';
+  width: 100%;
+  background-color: transparent;
+  height: 100px;
+}
+
+*/
+.dashboard__before {
+  width: 100%;
+  background-color: transparent;
+  height: 50px;
+}
+
+.dashboard {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-blue);
+  margin: 0;
+  padding: 0;
+  line-height: 1.143;
+}
+
+.dashboard__subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--color-dark-blue);
+}
+
+.dashboard__placeholder {
+  width: 315px;
+  height: 347px;
+  border: 1px solid grey;
+  margin: 10px 21px 12px 21px;
+}
