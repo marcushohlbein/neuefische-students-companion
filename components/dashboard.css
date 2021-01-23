@@ -31,6 +31,57 @@
   color: var(--color-dark-blue);
 }
 
+.dashboard__buddyscontainer {
+  margin: 58px 30px;
+  margin-top: 58px;
+}
+
+.dashboard__buddyslist {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto 20px auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.dashboard__buddysitem {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
+  position: relative;
+}
+
+.dashboard__buddysicon {
+  position: absolute;
+  top: 44px;
+  right: 449px;
+  background-color: transparent;
+  border: none;
+}
+
+.dashboard__teamscontainer {
+  margin: 58px 30px;
+  margin-top: 58px;
+}
+
+.dashboard__teamslist {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.dashboard__teamsitem {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
+}
+
 .dashboard__placeholder {
   width: 315px;
   height: 347px;
