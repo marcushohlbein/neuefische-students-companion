@@ -3,6 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.journal__rating__items {
+  margin: 0;
+  padding: 0;
 }
 
 .journal__motto__input {
@@ -23,10 +30,7 @@
   resize: none;
   padding: 19px 20px;
   margin-top: 10px;
-}
-
-.journal__motto-notes {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .journal__buttons {
