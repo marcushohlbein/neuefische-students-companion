@@ -1,15 +1,15 @@
 .header {
   text-align: center;
   background-color: #f8f8f8;
-  position: relative;
   z-index: 2;
+  position: fixed;
 }
 
 .header:after {
   content: url(../material/background_shape_1.svg);
   position: absolute;
   left: 0%;
-  top: 30%;
+  top: 0%;
   z-index: -1;
   width: 100%;
 }
@@ -51,6 +51,7 @@
   padding: 20px 0 0 0;
   margin: 0;
   line-height: 0.9;
+  text-align: center;
 }
 
 .header__subtitle {
