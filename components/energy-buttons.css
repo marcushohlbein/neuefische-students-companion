@@ -1,0 +1,36 @@
+.energy__level {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.energy__button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 12px 0;
+  width: 315px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.energy__button--dark-orange {
+  background-color: #ff5a36;
+  color: #fff;
+}
+
+.energy__button--orange {
+  background-color: #ff9c86;
+  color: #fff;
+}
+
+.energy__button--light-orange {
+  background-color: #ffbdaf;
+  color: #ff5a36;
+}
+
+.energy__button--lighter-orange {
+  background-color: #ffded7;
+  color: #ff5a36;
+}
