@@ -1,0 +1,8 @@
+.journal__comprehension__check {
+  appearance: none;
+  border: 1px solid var(--color-blue);
+  border-radius: 4.8px;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+}
