@@ -1,6 +1,8 @@
+import './teams.css'
+import teams from './teams.html'
+
 export default {
   title: 'teams',
-  components: html,
 }
 
 export const base = () => teams

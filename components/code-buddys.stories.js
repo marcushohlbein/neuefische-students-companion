@@ -1,5 +1,5 @@
-import 'code-buddys.css'
-import html from 'code-buddys.html'
+import './code-buddys.css'
+import html from './code-buddys.html'
 
 export default {
   title: 'code-buddys',
