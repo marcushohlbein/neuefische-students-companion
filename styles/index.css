@@ -8,8 +8,10 @@
 @import '../components/header.css';
 @import './journal-rate.css';
 @import '../components/journal2.css';
+@import '../components/journaleileen.css';
 @import '../components/teams.css';
 @import '../components/code-buddys.css';
+@import '../components/dashboard.css';
 @import '../components/energy-buttons.css';
 @import '../components/navigation.css';
 @import '_constants.css';
