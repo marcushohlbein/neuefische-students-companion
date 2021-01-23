@@ -1,0 +1,49 @@
+:root {
+  --color-white: #fff;
+  --color-dark-blue: #193251;
+  --color-blue: #7589a2;
+  --color-light-blue: #e0e4e8;
+  --color-lighter-blue: #f8f8f8;
+  --color-dark-orange: #ff5a36;
+  --color-orange: #ff9c86;
+  --color-light-orange: #ffbdaf;
+  --color-lighter-orange: #ffded7;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.code-buddys-container {
+  margin: 58px 30px;
+  margin-top: 58px;
+}
+
+.code-buddys-container__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto 20px auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.code-buddys-container__item {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
+  position: relative;
+}
+.code-buddys-container__icon {
+  position: absolute;
+  top: 44px;
+  right: 449px;
+  background-color: transparent;
+  border: none;
+}
+
+/* .plus anders skalieren  */
