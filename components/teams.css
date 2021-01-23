@@ -1,0 +1,49 @@
+:root {
+  --color-white: #fff;
+  --color-dark-blue: #193251;
+  --color-blue: #7589a2;
+  --color-light-blue: #e0e4e8;
+  --color-lighter-blue: #f8f8f8;
+  --color-dark-orange: #ff5a36;
+  --color-orange: #ff9c86;
+  --color-light-orange: #ffbdaf;
+  --color-lighter-orange: #ffded7;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.teams-container {
+  margin: 58px 30px;
+  margin-top: 58px;
+}
+
+.teams-container__heading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.143;
+  color: var(--color-dark-blue);
+}
+
+.teams-container__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.teams-container__item {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
+}
+
+/* 
+To Do's: 
+Letzte Border dicker als die anderen?
+*/
