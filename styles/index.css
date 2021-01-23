@@ -6,7 +6,7 @@
 @import '_app-grid.css';
 @import '_constants.css';
 @import '../components/header.css';
-@import '../components/journal.css';
+@import './journal-rate.css';
 @import '../components/journal2.css';
 @import '../components/teams.css';
 @import '../components/code-buddys.css';
