@@ -15,4 +15,5 @@
 @import '../components/dashboard.css';
 @import '../components/energy-buttons.css';
 @import '../components/navigation.css';
+@import '../components/journal-cards.css';
 @import '_constants.css';

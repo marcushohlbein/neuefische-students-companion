@@ -1,43 +1,3 @@
-/*
-.dashboard:before {
-  content: '';
-  width: 100%;
-  background-color: transparent;
-  height: 100px;
-}
-
-
-.dashboard__before {
-  width: 100%;
-  background-color: transparent;
-  height: 75px;
-}
-
-
-.dashboard {
-  font-family: 'Open Sans';
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--color-blue);
-  margin: 0;
-  padding: 0;
-  line-height: 1.143;
-}
-
-
-.dashboard__subtitle {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.143;
-  color: var(--color-dark-blue);
-}
-
-
-.dashboard__buddyscontainer {
-  margin: 0 0 35px 0;
-}
-*/
 .dashboard__buddyslist {
   list-style-type: none;
   padding-left: 0;
@@ -60,12 +20,7 @@
   top: 100%;
   right: 44%;
   transform: translate(-50%, -50%);
-  /* background-color: transparent; */
   border: none;
-}
-
-.dashboard__teamscontainer {
-  margin: 0 0 35px 0;
 }
 
 .dashboard__teamslist {
@@ -88,5 +43,4 @@
   width: 315px;
   height: 347px;
   border: 1px solid grey;
-  margin: 10px 21px 12px 21px;
 }

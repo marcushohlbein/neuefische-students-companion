@@ -1,13 +1,7 @@
-/*
-.journal {
-  display: grid;
-}
-*/
-
-.journal__before {
-  width: 100%;
-  background-color: transparent;
-  height: 85px;
+.journal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .journal__button {
@@ -19,14 +13,17 @@
   line-height: 1;
   color: var(--color-white);
   background-color: var(--color-dark-orange);
-  border: none;
+  box-shadow: 0 4px 10px 0 rgba(255, 90, 54, 0.4);
   border-radius: 5px;
-  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 
 .journal__placeholder {
   width: 315px;
   height: 347px;
   border: 1px solid grey;
-  margin: 10px 21px 12px 21px;
 }
