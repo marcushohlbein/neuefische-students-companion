@@ -3,56 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>code-buddys</title>
+    <title>Energy</title>
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body class="app-grid">
-    <header class="headerbig">
-      <h1 class="headerbig__title">code buddys</h1>
-      <span class="header__subtitle">on Monday - 18.07.2020</span>
+    <header class="header">
+      <h1 class="headerbig__title">Energy</h1>
     </header>
     <main class="app-grid__content">
-      <section class="code-buddys-container">
-        <ul class="code-buddys-container__list">
-          <li class="code-buddys-container__item">
-            <img
-              src="./material/Plus.svg"
-              alt=""
-              width="20.33"
-              height="20.33"
-              class="code-buddys-container__icon"
-            />Eileen
-          </li>
-          <li class="code-buddys-container__item">Paula</li>
-        </ul>
-
-        <ul class="code-buddys-container__list">
-          <li class="code-buddys-container__item">
-            <img
-              src="./material/Plus.svg"
-              alt=""
-              width="20.33"
-              height="20.33"
-              class="code-buddys-container__icon"
-            />Eileen
-          </li>
-          <li class="code-buddys-container__item">Paula</li>
-        </ul>
-        <ul class="code-buddys-container__list">
-          <li class="code-buddys-container__item">
-            <img
-              src="./material/Plus.svg"
-              alt=""
-              width="20.33"
-              height="20.33"
-              class="code-buddys-container__icon"
-            />Eileen
-          </li>
-          <li class="code-buddys-container__item">Paula</li>
+      <section class="energy-level">
+        <h3>Energy Level throughout the day</h3>
+        <div class="chart-container">
+          <div class="chart-values__y">
+            <ul class="chart-values__y-list">
+              <li class="chart-values__item chart-values__item--x">100</li>
+              <li class="chart-values__item chart-values__item--x">75</li>
+              <li class="chart-values__item chart-values__item--x">50</li>
+              <li class="chart-values__item chart-values__item--x">25</li>
+              <li class="chart-values__item chart-values__item--x">0</li>
+            </ul>
+          </div>
+          <div class="bar-container">
+            <ul class="energy-chart">
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 85%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 60%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 20%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 80%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 30%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 60%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 60%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+            </ul>
+          </div>
+          <div class="chart-values__x">
+            <ul class="chart-values__x-list">
+              <li class="chart-values__item chart-values__item--x">10:00</li>
+              <li class="chart-values__item chart-values__item--x">15:30</li>
+              <li class="chart-values__item chart-values__item--x">16:15</li>
+              <li class="chart-values__item chart-values__item--x">18:25</li>
+              <li class="chart-values__item chart-values__item--x">19:00</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="energy-labels">
+        <ul class="chart__label">
+          <li class="label__item label__item--blue">Other Students</li>
+          <li class="label__item label__item--orange">You</li>
         </ul>
       </section>
+      <section class="energy-rating">
+        <h3>Rate your current energy level:</h3>
+        <div class="energy__level">
+          <button class="energy__button energy__button--dark-orange">
+            100%
+          </button>
+          <button class="energy__button energy__button--orange">75%</button>
+          <button class="energy__button energy__button--light-orange">
+            50%
+          </button>
+          <button class="energy__button energy__button--lighter-orange">
+            25%
+          </button>
+        </div>
+      </section>
     </main>
-
     <nav class="navigation">
       <a class="navigation__item" aria-label="Dashboard" href="./index.html">
         <svg
@@ -111,7 +168,7 @@
             <g
               id="NavigationBar"
               transform="translate(-91.000000, -12.000000)"
-              fill="#193251"
+              fill="#7589a2"
             >
               <g id="BuddyIcon" transform="translate(91.000000, 10.000000)">
                 <path
@@ -158,12 +215,7 @@
           </g>
         </svg>
       </a>
-      <a
-        id="energy"
-        class="navigation__item"
-        aria-label="Energy"
-        href="./energy.html"
-      >
+      <a id="energy" class="navigation__item" aria-label="Energy" href="#">
         <svg
           width="20px"
           height="22.01px"
@@ -183,7 +235,7 @@
             <g
               id="NavigationBar"
               transform="translate(-221.000000, -11.000000)"
-              fill="#7589a2"
+              fill="#193251"
             >
               <g id="EnergyIcon" transform="translate(219.000000, 10.000000)">
                 <path
