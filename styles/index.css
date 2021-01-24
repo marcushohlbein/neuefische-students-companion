@@ -6,10 +6,13 @@
 @import '_app-grid.css';
 @import '_constants.css';
 @import '../components/header.css';
-@import '../components/journal.css';
+@import '../components/headerbig.css';
+@import './journal-rate.css';
 @import '../components/journal2.css';
+@import '../components/journal.css';
 @import '../components/teams.css';
 @import '../components/code-buddys.css';
+@import '../components/dashboard.css';
 @import '../components/energy-buttons.css';
-@import '../components/navigation.css';
+@import 'navigation.css';
 @import '_constants.css';

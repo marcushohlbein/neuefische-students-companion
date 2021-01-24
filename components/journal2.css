@@ -6,3 +6,41 @@
   height: 26px;
   margin: 0;
 }
+
+.journal__comprehension__check:checked {
+  appearance: none;
+  border: 1px solid var(--color-dark-blue);
+  background-color: var(--color-dark-blue);
+  border-radius: 4.8px;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  background-color: var(--color-dark-blue);
+}
+
+/* input */
+.journal__rating__item {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+/* label */
+
+.journal__rating__label {
+  position: relative;
+  float: right;
+  color: #c8c8c8;
+}
+
+.journal__rating__label:before {
+  margin: 5px;
+  content: url(../material/Star.svg);
+  display: inline-block;
+  font-size: 1.5em;
+}

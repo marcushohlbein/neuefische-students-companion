@@ -1,7 +1,8 @@
-import html from './journal.html'
+import './journal.css'
+import html from '../journal.html'
 
 export default {
-  title: 'Journal',
+  title: 'journal',
 }
 
 export const base = () => html
