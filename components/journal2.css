@@ -8,7 +8,9 @@
 }
 
 .journal__comprehension__check:checked {
-  border: 1px solid var(--color-blue);
+  appearance: none;
+  border: 1px solid var(--color-dark-blue);
+  background-color: var(--color-dark-blue);
   border-radius: 4.8px;
   width: 26px;
   height: 26px;
