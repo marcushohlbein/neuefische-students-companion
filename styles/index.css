@@ -14,5 +14,5 @@
 @import '../components/code-buddys.css';
 @import '../components/dashboard.css';
 @import '../components/energy-buttons.css';
-@import '../components/navigation.css';
+@import 'navigation.css';
 @import '_constants.css';
