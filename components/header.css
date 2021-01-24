@@ -3,13 +3,14 @@
   background-color: #f8f8f8;
   z-index: 2;
   position: fixed;
+  width: 100%;
 }
 
 .header:after {
   content: url(../material/background_shape_1.svg);
   position: absolute;
   left: 0%;
-  top: 0%;
+  bottom: -90%;
   z-index: -1;
   width: 100%;
 }

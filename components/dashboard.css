@@ -10,7 +10,7 @@
 .dashboard__before {
   width: 100%;
   background-color: transparent;
-  height: 50px;
+  height: 75px;
 }
 
 .dashboard {
@@ -29,6 +29,56 @@
   font-size: 14px;
   line-height: 1.143;
   color: var(--color-dark-blue);
+}
+
+.dashboard__buddyscontainer {
+  margin: 0 0 35px 0;
+}
+
+.dashboard__buddyslist {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto 20px auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.dashboard__buddysitem {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
+  position: relative;
+}
+
+.dashboard__buddysicon {
+  position: absolute;
+  top: 100%;
+  right: 44%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+}
+
+.dashboard__teamscontainer {
+  margin: 0 0 35px 0;
+}
+
+.dashboard__teamslist {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  border: 1px solid var(--color-light-blue);
+  border-radius: 6px;
+}
+
+.dashboard__teamsitem {
+  text-align: center;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: 18px 79.5px;
+  line-height: 1;
+  color: var(--color-blue);
 }
 
 .dashboard__placeholder {

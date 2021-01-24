@@ -5,11 +5,11 @@
 @import '_constants.css';
 @import '_app-grid.css';
 @import '_constants.css';
-@import 'header.css';
-@import 'journal-rate.css';
+@import '../components/header.css';
+@import '../components/headerbig.css';
+@import './journal-rate.css';
 @import '../components/journal2.css';
-@import '../components/journal-cards.css';
-@import '../components/journaleileen.css';
+@import '../components/journal.css';
 @import '../components/teams.css';
 @import '../components/code-buddys.css';
 @import '../components/dashboard.css';
