@@ -1,25 +1,29 @@
 .app-grid {
+  background-color: var(--color-white);
   display: grid;
   grid-template-rows: 81px auto 58px;
   height: 100vh;
   margin: 0 auto;
 }
 
-.app-grid__header {
-  display: grid;
-  place-items: center;
-  height: 100%;
-}
-
 .app-grid__content {
-  background-color: var(--color-light-grey);
+  background-color: var(--color-white);
   overflow-y: scroll;
-  display: grid;
-  gap: 20px;
-  height: 100%;
-  padding: 50px 20px 20px;
+  height: 100vh; /* 100% */
+  padding: 89px 20px 20px 20px;
+  z-index: -1;
 }
 
-.app-grid__navigation {
-  background-color: var(--color-white);
+.app-grid__content > *:last-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 84px;
+}
+
+.app-grid__content > *:last-child {
+  position: relative;
 }
