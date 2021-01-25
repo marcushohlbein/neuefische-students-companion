@@ -14,12 +14,7 @@
   color: var(--color-blue);
   position: relative;
 }
-<<<<<<< HEAD
 .code-buddys__list__icon {
-=======
-
-.code-buddys-container__icon {
->>>>>>> main
   background-color: transparent;
   border: none;
   position: absolute;
