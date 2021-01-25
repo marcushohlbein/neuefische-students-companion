@@ -1,6 +1,7 @@
 .energy__level {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -13,6 +14,7 @@
   width: 315px;
   border-radius: 5px;
   border-style: none;
+  justify-self: center;
 }
 
 .energy__button--dark-orange {

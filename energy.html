@@ -3,272 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
+    <title>Energy</title>
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body class="app-grid">
     <header class="header">
-      <h1 class="headerbig__title">Dashboard</h1>
+      <h1 class="headerbig__title">Energy</h1>
     </header>
     <main class="app-grid__content">
-      <h3 class="dashboard__subtitle">Your Code Buddy for Today:</h3>
-      <section class="dashboard__buddyscontainer">
-        <ul class="dashboard__buddyslist">
-          <li class="dashboard__buddysitem">
-            <img
-              src="./material/Plus.svg"
-              alt=""
-              width="20.33"
-              height="20.33"
-              class="dashboard__buddysicon"
-            />Eileen
-          </li>
-          <li class="dashboard__buddysitem">Paula</li>
+      <section class="energy-level">
+        <h3>Energy Level throughout the day</h3>
+        <div class="chart-container">
+          <div class="chart-values__y">
+            <ul class="chart-values__y-list">
+              <li class="chart-values__item chart-values__item--x">100</li>
+              <li class="chart-values__item chart-values__item--x">75</li>
+              <li class="chart-values__item chart-values__item--x">50</li>
+              <li class="chart-values__item chart-values__item--x">25</li>
+              <li class="chart-values__item chart-values__item--x">0</li>
+            </ul>
+          </div>
+          <div class="bar-container">
+            <ul class="energy-chart">
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 85%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 60%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 20%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 80%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 30%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 60%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+              <li class="energy-chart__bar-container">
+                <span
+                  class="energy-chart__bar energy-chart__bar--you"
+                  style="height: 60%"
+                ></span>
+                <span
+                  class="energy-chart__bar energy-chart__bar--other"
+                  style="height: 40%"
+                ></span>
+              </li>
+            </ul>
+          </div>
+          <div class="chart-values__x">
+            <ul class="chart-values__x-list">
+              <li class="chart-values__item chart-values__item--x">10:00</li>
+              <li class="chart-values__item chart-values__item--x">15:30</li>
+              <li class="chart-values__item chart-values__item--x">16:15</li>
+              <li class="chart-values__item chart-values__item--x">18:25</li>
+              <li class="chart-values__item chart-values__item--x">19:00</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="energy-labels">
+        <ul class="chart__label">
+          <li class="label__item label__item--blue">Other Students</li>
+          <li class="label__item label__item--orange">You</li>
         </ul>
       </section>
-
-      <h3 class="dashboard__subtitle">Your Current Team:</h3>
-
-      <section class="dashboard__teamscontainer">
-        <ul class="dashboard__teamslist">
-          <li class="dashboard__teamsitem">Eileen</li>
-          <li class="dashboard__teamsitem">Paula</li>
-          <li class="dashboard__teamsitem">Marcus</li>
-          <li class="dashboard__teamsitem">Melissa</li>
-          <li class="dashboard__teamsitem">Name</li>
-        </ul>
-      </section>
-
-      <h3 class="dashboard__subtitle">Yesterdays Journal:</h3>
-
-      <section class="journal-cards">
-        <h4>Yesterday</h4>
-        <h6>Rating:</h6>
-        <section class="journal-cards__rating marto10">
-          <svg
-            class="journal-cards__rating__items"
-            width="24.82"
-            height="23.63"
-            viewBox="-1 -1 25 26"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <title>Star Copy 5</title>
-            <g
-              id="App"
-              stroke="none"
-              stroke-width="1px"
-              fill="none"
-              fill-rule="evenodd"
-            >
-              <g
-                id="NF_CourseApp_Screen1"
-                transform="translate(-95.000000, -674.000000)"
-                fill="var(--color-dark-blue)"
-                stroke="var(--color-dark-blue)"
-              >
-                <g id="Card1" transform="translate(30.000000, 628.000000)">
-                  <g id="Rating" transform="translate(20.000000, 46.000000)">
-                    <g id="Star" transform="translate(45.000000, 0.000000)">
-                      <path
-                        d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
-                        id="Path"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg
-            class="journal-cards__rating__items"
-            width="24.82"
-            height="23.63"
-            viewBox="-1 -1 25 26"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <title>Star Copy 5</title>
-            <g
-              id="App"
-              stroke="none"
-              stroke-width="1px"
-              fill="none"
-              fill-rule="evenodd"
-            >
-              <g
-                id="NF_CourseApp_Screen1"
-                transform="translate(-95.000000, -674.000000)"
-                fill="var(--color-dark-blue)"
-                stroke="var(--color-dark-blue)"
-              >
-                <g id="Card1" transform="translate(30.000000, 628.000000)">
-                  <g id="Rating" transform="translate(20.000000, 46.000000)">
-                    <g id="Star" transform="translate(45.000000, 0.000000)">
-                      <path
-                        d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
-                        id="Path"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg
-            class="journal-cards__rating__items"
-            width="24.82"
-            height="23.63"
-            viewBox="-1 -1 25 26"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <title>Star Copy 5</title>
-            <g
-              id="App"
-              stroke="none"
-              stroke-width="1px"
-              fill="none"
-              fill-rule="evenodd"
-            >
-              <g
-                id="NF_CourseApp_Screen1"
-                transform="translate(-95.000000, -674.000000)"
-                fill="var(--color-dark-blue)"
-                stroke="var(--color-dark-blue)"
-              >
-                <g id="Card1" transform="translate(30.000000, 628.000000)">
-                  <g id="Rating" transform="translate(20.000000, 46.000000)">
-                    <g id="Star" transform="translate(45.000000, 0.000000)">
-                      <path
-                        d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
-                        id="Path"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg
-            class="journal-cards__rating__items"
-            width="24.82"
-            height="23.63"
-            viewBox="-1 -1 25 26"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <title>Star Copy 5</title>
-            <g
-              id="App"
-              stroke="none"
-              stroke-width="1px"
-              fill="none"
-              fill-rule="evenodd"
-            >
-              <g
-                id="NF_CourseApp_Screen1"
-                transform="translate(-95.000000, -674.000000)"
-                fill="var(--color-light-blue)"
-                stroke="var(--color-light-blue)"
-              >
-                <g id="Card1" transform="translate(30.000000, 628.000000)">
-                  <g id="Rating" transform="translate(20.000000, 46.000000)">
-                    <g id="Star" transform="translate(45.000000, 0.000000)">
-                      <path
-                        d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
-                        id="Path"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-          <svg
-            class="journal-cards__rating__items"
-            width="24.82"
-            height="23.63"
-            viewBox="-1 -1 25 26"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <title>Star Copy 5</title>
-            <g
-              id="App"
-              stroke="none"
-              stroke-width="1px"
-              fill="none"
-              fill-rule="evenodd"
-            >
-              <g
-                id="NF_CourseApp_Screen1"
-                transform="translate(-95.000000, -674.000000)"
-                fill="var(--color-light-blue)"
-                stroke="var(--color-light-blue)"
-              >
-                <g id="Card1" transform="translate(30.000000, 628.000000)">
-                  <g id="Rating" transform="translate(20.000000, 46.000000)">
-                    <g id="Star" transform="translate(45.000000, 0.000000)">
-                      <path
-                        d="M8.23458443,7.2288 L0.825542795,8.30177333 L0.715980417,8.32378638 C0.00767592863,8.50741356 -0.252463118,9.41029168 0.291855842,9.93923898 L5.65288072,15.14976 L4.3876206,22.5059207 L4.37507497,22.6116336 C4.32751461,23.3425174 5.11048682,23.8713631 5.78483118,23.5179301 L12.4119178,20.0448 L19.0390043,23.5179301 L19.1359768,23.5624921 C19.8185371,23.833441 20.5650032,23.2545037 20.4362149,22.5059207 L19.1699918,15.14976 L24.5319797,9.93923898 L24.6076386,9.85722905 C25.0724025,9.29362162 24.750523,8.41074247 23.9982927,8.30177333 L16.5882881,7.2288 L13.2754414,0.535136917 C12.9222134,-0.178378972 11.9016221,-0.178378972 11.5483941,0.535136917 L8.23458443,7.2288 Z"
-                        id="Path"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </section>
-        <h6>Comprehension:</h6>
-        <section class="journal-cards__comprehension marto10">
-          <input
-            class="journal-cards__comprehension__check__active"
-            type="checkbox"
-          />
-          <input
-            class="journal-cards__comprehension__check__active"
-            type="checkbox"
-          />
-          <input
-            class="journal-cards__comprehension__check__active"
-            type="checkbox"
-          />
-          <input
-            class="journal-cards__comprehension__check__active"
-            type="checkbox"
-          />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-          <input class="journal-cards__comprehension__check" type="checkbox" />
-        </section>
-        <section class="journal__motto-notes">
-          <h6>Motto:</h6>
-          <q class="journal-cards__motto_quote marto10"
-            >That's life in The City</q
-          >
-          <h6>Notes:</h6>
-          <p class="marto10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            aliquam suscipit eligendi similique eveniet! Ab nihil quam magni.
-            Sed tenetur quo mollitia! Quod eveniet eaque cupiditate laboriosam
-            harum, quidem nam.
-          </p>
-        </section>
+      <section class="energy-rating">
+        <h3>Rate your current energy level:</h3>
+        <div class="energy__level">
+          <button class="energy__button energy__button--dark-orange">
+            100%
+          </button>
+          <button class="energy__button energy__button--orange">75%</button>
+          <button class="energy__button energy__button--light-orange">
+            50%
+          </button>
+          <button class="energy__button energy__button--lighter-orange">
+            25%
+          </button>
+        </div>
       </section>
     </main>
-
     <nav class="navigation">
-      <a class="navigation__item" aria-label="Dashboard" href="#">
+      <a class="navigation__item" aria-label="Dashboard" href="./index.html">
         <svg
           width="21px"
           height="20,5px"
@@ -288,7 +131,7 @@
             <g
               id="NavigationBar"
               transform="translate(-28.000000, -11.000000)"
-              fill="#193251"
+              fill="#7589a2"
             >
               <g id="DashboardIcon" transform="translate(27.000000, 10.000000)">
                 <path
@@ -372,12 +215,7 @@
           </g>
         </svg>
       </a>
-      <a
-        id="energy"
-        class="navigation__item"
-        aria-label="Energy"
-        href="./energy.html"
-      >
+      <a id="energy" class="navigation__item" aria-label="Energy" href="#">
         <svg
           width="20px"
           height="22.01px"
@@ -397,7 +235,7 @@
             <g
               id="NavigationBar"
               transform="translate(-221.000000, -11.000000)"
-              fill="#7589a2"
+              fill="#193251"
             >
               <g id="EnergyIcon" transform="translate(219.000000, 10.000000)">
                 <path

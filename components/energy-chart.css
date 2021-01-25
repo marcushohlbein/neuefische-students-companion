@@ -2,19 +2,27 @@
   box-sizing: border-box;
 }
 
-.grid-container {
+.energy-rating {
+  margin-top: 30px;
+}
+
+.energy-level {
   display: grid;
-  grid-template-columns: 0.5fr 3.5fr;
+  grid-template-columns: 1fr;
+}
+
+.chart-container {
+  display: grid;
+  grid-template-columns: 0.5fr 4.5fr;
   grid-template-rows: 3.5fr 0.5fr;
   gap: 9px 0;
   grid-template-areas:
     '. .'
     '. .';
-  height: 208px;
   width: 315px;
 }
 
-.chart_values__x {
+.chart-values__x {
   grid-column-start: 2;
   width: 260px;
 }
@@ -28,7 +36,7 @@
 }
 
 .chart-values__item {
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: Open Sans, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
@@ -36,7 +44,7 @@
   text-decoration: none;
 }
 
-.chart_values__y {
+.chart-values__y {
   padding: 20px 0 0 0;
   margin: 0;
 }
@@ -51,8 +59,7 @@
   height: 100%;
 }
 
-.chart-container {
-  width: 260px;
+.bar-container {
   background-image: linear-gradient(
     to top,
     var(--color-light-blue) 1px,
@@ -65,7 +72,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 12px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -80,7 +87,7 @@
 .energy-chart__bar {
   width: 12px;
   border-radius: 8px 8px 0 0;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -88,6 +95,7 @@
   float: left;
   background: var(--color-dark-orange);
 }
+
 .energy-chart__bar--other {
   float: right;
   background: var(--color-dark-blue);

@@ -10,11 +10,16 @@
   background-color: var(--color-white);
   overflow-y: scroll;
   height: 100vh; /* 100% */
-  padding: 89px 20px 20px 20px;
-  z-index: -1;
+  padding: 89px 30px 20px 30px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.app-grid__content > *:last-child:after {
+.app-grid__content:-webkit-scrollbar {
+  display: none;
+}
+
+.app-grid__content > *:last-child::after {
   content: '';
   display: block;
   position: absolute;
