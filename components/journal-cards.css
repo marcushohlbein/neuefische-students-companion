@@ -29,7 +29,7 @@
   justify-content: space-around;
 }
 
-.journal-cards__comprehension__check {
+.journal-cards__comprehension-check {
   appearance: none;
   background-color: var(--color-light-blue);
   border-radius: 4.8px;
@@ -37,7 +37,7 @@
   height: 22px;
 }
 
-.journal-cards__comprehension__check__active {
+.journal-cards__comprehension-check-active {
   appearance: none;
   background-color: var(--color-dark-blue);
   border-radius: 4.8px;
@@ -45,7 +45,7 @@
   height: 22px;
 }
 
-.journal-cards__comprehension__check:checked {
+.journal-cards__comprehension-check:checked {
   appearance: none;
   border: 1px solid var(--color-dark-blue);
   background-color: var(--color-dark-blue);
