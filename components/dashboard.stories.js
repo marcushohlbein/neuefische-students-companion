@@ -1,8 +1,8 @@
 import './dashboard.css'
-import html from '../dashboard.html'
+import dash from '../index.html'
 
 export default {
   title: 'Dashboard',
 }
 
-export const base = () => html
+export const base = () => dash
