@@ -15,7 +15,6 @@
   width: 26px;
   height: 26px;
   margin: 0;
-  background-color: var(--color-dark-blue);
 }
 
 /* input */
@@ -38,7 +37,7 @@
   color: #c8c8c8;
 }
 
-.journal__rating__label:before {
+.journal__rating__label::before {
   margin: 5px;
   content: url(../material/Star.svg);
   display: inline-block;

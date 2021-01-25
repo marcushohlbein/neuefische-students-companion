@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.header:after {
+.header::after {
   content: url(../material/background_shape_1.svg);
   position: absolute;
   left: 0%;
@@ -16,7 +16,7 @@
 }
 
 .header__title {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: var(--color-dark-blue);
@@ -28,7 +28,7 @@
 }
 
 .header__subtitle {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: var(--color-blue);
