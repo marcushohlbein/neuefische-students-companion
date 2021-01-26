@@ -2,7 +2,8 @@
   "name": "neuefische-students-companion",
   "version": "0.0.1",
   "scripts": {
-    "start": "npm run live-server --no-css-inject",
+    "start": "snowpack dev",
+    "build": "snowpack build",
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint",
