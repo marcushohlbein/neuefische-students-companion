@@ -1,0 +1,23 @@
+.journal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journal__button {
+  width: 200px;
+  height: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-white);
+  background-color: var(--color-dark-orange);
+  box-shadow: 0 4px 10px 0 rgba(255, 90, 54, 0.4);
+  border-radius: 5px;
+  align-self: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+}

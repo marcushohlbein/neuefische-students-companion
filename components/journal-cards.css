@@ -1,0 +1,72 @@
+.journal-cards {
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 1px 2px 11px 0px rgba(25, 50, 81, 0.2);
+  -webkit-box-shadow: 1px 2px 11px 0px rgba(25, 50, 81, 0.2);
+  -moz-box-shadow: 1px 2px 11px 0px rgba(25, 50, 81, 0.2);
+}
+
+.journal-cards__rating {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.journal-cards__rating__items {
+  margin-right: 18.2px;
+  padding: 0;
+}
+
+.journal-cards__rating__items__active {
+  margin-right: 18.2px;
+  padding: 0;
+}
+
+.journal-cards__comprehension {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.journal-cards__comprehension-check {
+  appearance: none;
+  background-color: var(--color-light-blue);
+  border-radius: 4.8px;
+  width: 22px;
+  height: 22px;
+}
+
+.journal-cards__comprehension-check-active {
+  appearance: none;
+  background-color: var(--color-dark-blue);
+  border-radius: 4.8px;
+  width: 22px;
+  height: 22px;
+}
+
+.journal-cards__comprehension-check:checked {
+  appearance: none;
+  border: 1px solid var(--color-dark-blue);
+  background-color: var(--color-dark-blue);
+  border-radius: 4.8px;
+  width: 22px;
+  height: 22px;
+}
+
+.journal-cards__motto_quote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--color-dark-blue);
+  margin-left: 0;
+  quotes: '„' '"'; /* Anführungszeichen unten auf mac = option + ^ */
+  display: inline-block;
+  width: 100%;
+}
+
+/* CSS Utility Classes */
+.marto10 {
+  margin-top: 10px;
+}
